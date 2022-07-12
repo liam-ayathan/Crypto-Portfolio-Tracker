@@ -3,7 +3,7 @@ const data = {
         name: 'Maniruzzaman Akash',
         short_description: 'Hi, view your nfts below!',
         image_url: 'https://akash.devsenv.com/api/public/images/profile/profile.png',
-        description: "<h3>We currently support <code><b>Ethereum</b></code></h3><h4>Avalanche, Solana and the Binance Smart Chain coming soon!</h4>",
+        description: "<h3>We currently support <code><b>Ethereum</b></code></h3><h4>Avalanche, Solana and the Binance Smart Chain coming soon</h4>",
         phone_no: '+8801951233084',
         email: 'manirujjamanakash@gmail.com',
     },
