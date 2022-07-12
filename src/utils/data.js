@@ -1,9 +1,9 @@
 const data = {
-    info: {
+    info: { 
         name: 'Maniruzzaman Akash',
-        short_description: 'Hi, I\'m Maniruzzaman Akash.',
+        short_description: 'Hi, view your nfts below!',
         image_url: 'https://akash.devsenv.com/api/public/images/profile/profile.png',
-        description: "<h3>I'm a full stack web developer experiencing more than 4+ years with <br><code>PHP</code>, <code>Laravel</code>, <code>JavaScript</code>, <code>Vue Js</code>, <code>React Js</code>, <code>React Native</code> <br>and many more..</h3>",
+        description: "<h3>We currently support <code><b>Ethereum</b></code></h3><h4>Avalanche, Solana and the Binance Smart Chain coming soon!</h4>",
         phone_no: '+8801951233084',
         email: 'manirujjamanakash@gmail.com',
     },

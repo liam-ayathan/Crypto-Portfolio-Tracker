@@ -30,7 +30,7 @@ function App() {
             </li>
           </ul>
         </nav> */}
-        <HeaderMenu />
+        {/* <HeaderMenu /> */}
 
         <div className="content-area p-5">
           <Switch>

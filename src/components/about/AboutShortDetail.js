@@ -2,11 +2,11 @@ import React from 'react';
 import parse from 'html-react-parser';
 import SocialLinks from '../social/SocialLinks';
 
-const AboutShortDetail = ({ info, social }) => {
+const AboutShortDetail = ({info}) => {
     return ( 
         <div className="p-5">
             {
-                info !== null && social !== null &&
+                info !== null &&
                 <div>
                     <h1>{info.short_description}</h1>
                     <br />
@@ -14,9 +14,9 @@ const AboutShortDetail = ({ info, social }) => {
                     <div>
                         {parse(`${info.description}`)}
                     </div>
-                    <div className="text-left">
+                    {/* <div className="text-left">
                         <SocialLinks social={social} />
-                    </div>
+                    </div> */}
                 </div>
             }
             

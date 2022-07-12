@@ -21,7 +21,7 @@ const HeaderMenu = () => {
                                 <Link to="/about">About Me</Link>
                             </Nav.Link>
                             <Nav.Link href="/contact">
-                                <Link to="/contact">Conact</Link>
+                                <Link to="/contact">Contact</Link>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
