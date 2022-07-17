@@ -28,7 +28,7 @@ const Home = () => {
 
     useEffect(() => {
       setInfo(data.info);
-      getNFT();
+      getNFT(); 
     }, []);
  
     return (
@@ -40,14 +40,16 @@ const Home = () => {
                     </div> */}
             <div className="col-8 col-md-8">
               <AboutShortDetail info={info} />
-              {nfts.map((item, index) => {
-                console.log("this is the item", item);
-                return (
-                  <div>
-                    <ActionAreaCard props={item}/>
-                  </div>
-                );
-              })}
+              <div style={{ display: "flex", flexDirection: "row" }}>
+                {nfts.map((item, index) => {
+                  console.log("this is the item", item);
+                  return (
+                    <div>
+                      <ActionAreaCard props={item} />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </>
         )}

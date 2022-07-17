@@ -6,13 +6,14 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
  
 export default function ActionAreaCard(item) {
+  console.log("displaying",item)
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345}} style ={{margin: "30px"}} >
       <CardActionArea>
         <CardMedia
           component="img"
           height="300"
-          image="https://lh3.googleusercontent.com/nXZuKlCM3AK-EJb8TPLJoU2seRr6Z3NZvoMePa5rVho-R81127YX7FrTzjArI6oz__ZeohznH9BimiZCGI1vYHTs6DMRY4t6XiBF"
+          image={item['props']['content']}
           alt={JSON.stringify(item["props"]["content"])}
         />
       </CardActionArea>
